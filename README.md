@@ -2,10 +2,13 @@
 
 > A full-stack courier and logistics web application built with Next.js 16, MongoDB, and Paystack payments.
 
+**🌐 Live Demo → [swifthaul-beta.vercel.app](https://swifthaul-beta.vercel.app)**
+
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=flat-square&logo=tailwindcss)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?style=flat-square&logo=mongodb)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square&logo=vercel)
 ![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
 
 ---

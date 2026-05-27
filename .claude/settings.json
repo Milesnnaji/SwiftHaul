@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"console.log\\(require\\('./node_modules/@react-email/components/package.json'\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/@react-email/render/package.json'\\).version\\)\")",
+      "Bash(node -e \"const r = require\\('@react-email/render'\\); console.log\\(Object.keys\\(r\\)\\)\")",
+      "Bash(node -e \"const r = require\\('@react-email/render'\\); console.log\\(r.render.toString\\(\\).slice\\(0, 200\\)\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(xargs ls -la)",
+      "Bash(claude mcp *)",
+      "Bash(gh api *)",
+      "Bash(npx uipro-cli *)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\(p.dependencies['framer-motion'], p.dependencies['@splinetool/react-spline']\\)\")",
+      "Bash(git branch *)",
+      "Bash(git push *)"
+    ]
+  }
+}
